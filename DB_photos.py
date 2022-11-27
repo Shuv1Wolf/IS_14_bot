@@ -32,7 +32,7 @@ class PhotosDB_top:
 class PhotosDB_lower:
 
     def __init__(self, db_file):
-        """установка соединения с БД"""
+        """установка соединения с БД""" 
         self.connection = sqlite3.connect(db_file)
         self.cursor = self.connection.cursor()
 
