@@ -42,4 +42,4 @@ lower_week_keyboard.add(dz_lower_week_monday, dz_lower_week_tuesday, dz_lower_we
                         dz_lower_week_friday, dz_lower_week_saturday)
 weeks_keyboard.add(lower_week_command, top_week_command, all_top_week_command, all_lower_week_command)
 
-main_keyboard.add(main_hometask, add_hometask_info_command, photos_info_command, keyboard_remove_command)
+main_keyboard.add(main_hometask, add_hometask_info_command, photos_info_command, keyboard_remove_command) 
