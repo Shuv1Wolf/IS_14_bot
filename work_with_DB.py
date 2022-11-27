@@ -31,7 +31,7 @@ class BotDB_top:
         for question in question_list: # в этих вложенных циклах мы преобразуем данные с БД о домашнем задании в список (также убераем лишнее)
             for i in question:
                 lst_homework.append(i)
-        text = f"""{lst_subject[0]}: {lst_homework[0]}
+        text = f"""{lst_subject[0]}: {lst_homework[0]} 
 
 {lst_subject[1]}: {lst_homework[1]}
 
